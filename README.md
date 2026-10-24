@@ -1,4 +1,4 @@
-# 🤖 Andro Buddy AI - Full-Stack Streaming AI Chatbot
+# 🤖 Nexus AI - Full-Stack Streaming AI Chatbot
 
 A full-stack, production-grade AI chatbot web application built with **Next.js (App Router)** and the **Vercel AI SDK**. Features real-time progressive token streaming via Server-Sent Events (SSE), 100% free AI models via Groq LPUs, an offline local simulator mode, persistent multi-session conversation history across page refreshes, and a ChatGPT / Claude inspired UI design.
 

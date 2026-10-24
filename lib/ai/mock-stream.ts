@@ -90,7 +90,7 @@ Here is a side-by-side comparison of the two Next.js routing paradigms:
 - **App Router**: Recommended for all new greenfield applications. Provides optimal bundle sizes, streaming UI, and modern React 19 features.
 - **Pages Router**: Maintained for backwards compatibility in existing legacy codebases.`;
   } else {
-    responseText = `Hello! I'm **Andro Buddy AI**, running with real-time progressive streaming via Vercel AI SDK.
+    responseText = `Hello! I'm **Nexus AI**, running with real-time progressive streaming via Vercel AI SDK.
 
 You asked:
 > *${userPrompt}*

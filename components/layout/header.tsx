@@ -46,7 +46,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div className="hidden sm:flex flex-col">
             <span className="text-sm font-bold tracking-tight text-white flex items-center gap-1.5">
-              Andro Buddy AI
+              Nexus AI
               <span className="text-[10px] font-semibold px-1.5 py-0.2 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
                 v1.0
               </span>

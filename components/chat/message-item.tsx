@@ -50,7 +50,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({
         <div className="flex items-center justify-between gap-2 mb-1.5">
           <div className="flex items-center gap-2">
             <span className="text-xs font-semibold tracking-tight text-zinc-200">
-              {isUser ? 'You' : 'Andro Buddy AI'}
+              {isUser ? 'You' : 'Nexus AI'}
             </span>
             {message.createdAt && (
               <span className="text-[11px] text-zinc-500">

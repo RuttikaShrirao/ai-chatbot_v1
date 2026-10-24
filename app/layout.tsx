@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Andro Buddy AI - Full-Stack Streaming Chatbot',
+  title: 'Nexus AI - Full-Stack Streaming Chatbot',
   description:
     'Modern AI-powered chatbot built with Next.js App Router and Vercel AI SDK. Features real-time token streaming, persistent conversation history, and multi-provider support.',
 };

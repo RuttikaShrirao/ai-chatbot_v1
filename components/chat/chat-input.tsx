@@ -19,7 +19,7 @@ export const ChatInput: React.FC<ChatInputProps> = ({
   onSubmit,
   isLoading,
   onStop,
-  placeholder = 'Ask Andro Buddy anything... (Enter to send, Shift+Enter for new line)',
+  placeholder = 'Ask Nexus AI anything... (Enter to send, Shift+Enter for new line)',
 }) => {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 

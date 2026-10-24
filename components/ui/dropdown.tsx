@@ -129,11 +129,6 @@ export const ModelDropdown: React.FC<ModelDropdownProps> = ({
               );
             })}
           </div>
-
-          <div className="mt-1 pt-2 px-3 pb-1 border-t border-zinc-800/80 flex items-center justify-between text-[11px] text-zinc-400">
-            <span>Set free key in <code className="text-indigo-400">.env.local</code></span>
-            <span className="text-emerald-400 font-medium">100% Free Tier</span>
-          </div>
         </div>
       )}
     </div>

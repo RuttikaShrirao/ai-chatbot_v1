@@ -94,7 +94,7 @@ export function useChatSession() {
       }
     } else {
       // First time initialization
-      const initial = createDefaultSession('Welcome to Andro Buddy', loadedModel);
+      const initial = createDefaultSession('Welcome to Nexus AI', loadedModel);
       setSessions([initial]);
       setActiveSessionId(initial.id);
       saveSessionsToStorage([initial]);
@@ -129,7 +129,7 @@ export function useChatSession() {
       // Update title from first user message if still default title
       let updatedTitle = currentSession.title;
       if (
-        (updatedTitle === 'New Conversation' || updatedTitle === 'Welcome to Andro Buddy') &&
+        (updatedTitle === 'New Conversation' || updatedTitle === 'Welcome to Nexus AI') &&
         convertedMessages.length > 0
       ) {
         const firstUserMsg = convertedMessages.find((m) => m.role === 'user');

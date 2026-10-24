@@ -66,13 +66,13 @@ export const STARTER_PROMPTS = [
 ];
 
 export const STORAGE_KEYS = {
-  SESSIONS: 'andro_buddy_ai_chat_sessions_v1',
-  ACTIVE_SESSION_ID: 'andro_buddy_ai_active_session_id',
-  SELECTED_MODEL: 'andro_buddy_ai_selected_model',
-  SIDEBAR_OPEN: 'andro_buddy_ai_sidebar_open',
+  SESSIONS: 'nexus_ai_chat_sessions_v1',
+  ACTIVE_SESSION_ID: 'nexus_ai_active_session_id',
+  SELECTED_MODEL: 'nexus_ai_selected_model',
+  SIDEBAR_OPEN: 'nexus_ai_sidebar_open',
 } as const;
 
-export const DEFAULT_SYSTEM_PROMPT = `You are Andro Buddy AI, an exceptionally smart, friendly, and articulate full-stack AI assistant.
+export const DEFAULT_SYSTEM_PROMPT = `You are Nexus AI, an exceptionally smart, friendly, and articulate full-stack AI assistant.
 Respond with clarity, precision, and markdown formatting:
 - Use code blocks with language identifiers when sharing code.
 - Format structured answers using bullet points, numbered lists, and bold text.
